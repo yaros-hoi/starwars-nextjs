@@ -1,0 +1,22 @@
+:root {
+    --background: #b71c1c;
+    --color-link: #fff;
+}
+
+.header {
+    background: var(--background);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.link {
+    color: var(--color-link);
+    padding: 10px;
+}
+
+.logo {
+    height: 64px;
+}

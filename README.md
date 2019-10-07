@@ -1,2 +1,2 @@
-# starwars-nextjs
-An example of usage next.js with starwars API.
+1. npm install
+2. npm run dev

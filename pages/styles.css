@@ -1,0 +1,51 @@
+:root {
+    --color: #009688;
+}
+
+html {
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-size: 14px;
+    margin: 0;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+.name {
+    color: var(--color);
+    text-decoration: none;
+}
+
+.name:hover {
+    text-decoration: underline;
+}
+
+.description {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.errorBlock {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    justify-content: center;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menuItem {
+    margin: 5px 0;
+}
